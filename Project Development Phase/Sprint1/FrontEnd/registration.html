@@ -1,0 +1,62 @@
+<html>
+    <head>
+    <title>USER REGISTRATION</title>
+   <style>.a input{
+    padding: 10px;
+    width: 30%;
+    padding-right: 12px 20px;
+      margin: 8px 0;
+      bottom: 80px;
+    
+    display: inline-block;
+    border: 1px solid DeepSkyBlue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+        color: DeepSkyBlue;
+    background-color: LightCyan;
+    margin-left: 37%;
+    margin-top: 5%;
+    }
+    button {
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      background-color: LightSkyblue;
+      color: DeepSkyBlue ;
+      padding-right: 12px 20px;      
+      margin: 8px 0;
+      bottom: 80px;
+      width: 30%;
+      padding:1%;
+
+      display: inline-block;
+    border: 1px solid DeepSkyBlue;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }</style>
+  <script>
+    function fun(){
+        alert("registration successful");
+    }
+    </script>
+</head>
+    <body>
+        <h1>USER REGISTRATION</h1><BR><BR>
+        <div class="a">
+    <form method="post">    
+    <label>ID</label><br>    
+    <input type="number" name="id"><br><br>
+    <label>PIN</label>  <br>
+    <input type="number" name="pin"><br><br>
+    <label>CONFIRM PIN</label>  <br>
+    <input type="number" name="c_pin"><br><br>
+    <label>MODE</label>  <br>
+    <input type="text" name="mode"><br><br>
+    <button type="reset">Reset</button><br><br>
+    <button onclick=fun()>Submit</button>
+    </div>
+    </form>
+    </body>
+</html>
