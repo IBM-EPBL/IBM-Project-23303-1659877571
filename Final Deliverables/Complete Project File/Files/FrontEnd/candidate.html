@@ -1,0 +1,72 @@
+
+<html>
+    <head>
+        <style>
+            #customers {
+              font-family: Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 50%;
+            }
+            
+            #customers td, #customers th {
+              border: 1px solid  LightSkyBlue;
+              padding: 8px;
+              color: DeepSkyBlue
+            }
+            
+            #customers tr:nth-child(even){background-color: LightCyan;}
+            
+            #customers tr:hover {background-color: #ddd;}
+            
+            #customers th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color:  LightSkyBlue;
+              color: DeepSkyBlue;
+            }
+            body{
+              font-family: 'Open Sans', sans-serif;
+        color: DeepSkyBlue;
+    background-color: LightCyan ;
+   
+    }
+            </style>
+        </head>
+        <body><center><h1>CANDIDATE LIST</h1>
+                  <table border="1" id="customers"> 
+                  <tr> <th>Id</th> <th>Names</th><th>Skills</th>  <th>Experience</th>
+                    <th>Gender</th> <th>Email</th> <th>Phno</th> <th>Address</th> <th>Salary</th>   </tr> 
+                   <tr>
+                    <td>{{id[0]}}</td>
+                    <td>{{ names[0] }}</td>
+                        <td>{{skills[0]}}</td>
+                        <td>{{experience[0]}}</td>
+                        <td>{{gender[0]}}</td>
+                        <td>{{email[0]}}</td>
+                        <td>{{phno[0]}}</td>
+                        <td>{{address[0]}}</td>
+                        <td>{{salary[0]}}</td>
+                    </tr>
+                    <tr>
+                      <td>{{id[1]}}</td>
+                      <td>{{ names[1] }}</td>
+                          <td>{{skills[1]}}</td>
+                          <td>{{experience[1]}}</td>
+                          <td>{{gender[1]}}</td>
+                          <td>{{email[1]}}</td>
+                          <td>{{phno[1]}}</td>
+                          <td>{{address[1]}}</td>
+                          <td>{{salary[1]}}</td>
+                      </tr>
+                    
+                    </table>
+                    </center>
+                    </body>
+                    </html>
+
+                  
+  
+
+
+    

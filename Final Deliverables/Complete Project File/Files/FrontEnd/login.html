@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+       <style>
+        .e input{
+    padding: 10px;
+    width: 30%;
+    padding-right: 12px 20px;
+      margin: 8px 0;
+      bottom: 80px;
+    
+    display: inline-block;
+    border: 1px solid DeepSkyBlue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+        color: DeepSkyBlue;
+    background-color: LightCyan ;
+    margin-left: 37%;
+    margin-top: 5%;
+    }
+    button {
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      background-color: LightSkyBlue;
+      color:DeepSkyBlue ;
+      padding-right: 12px 20px;      
+      margin: 8px 0;
+      bottom: 80px;
+      width: 30%;
+      padding:1%;
+
+      display: inline-block;
+    border: 1px solid DeepSkyBlue;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+        </style>
+        <script>
+            function fun(){
+                alert("login successful");
+            }
+            </script>
+    </head>
+    <title>LOGIN</title>
+    <body>
+        <div class="e">
+            <h1>LOGIN</h1><br><br>
+    <form action="" method="post">    
+    <label>ID</label>    <br>
+    <input type="number" name="id"><br><br>
+    <label>PIN</label>  <br>
+    <input type="number" name="pin"><br><br>
+    <label>MODE</label>  <br>
+    <input type="text" name="mode"><br><br>
+    <button type="reset">Reset</button><br>
+    <button onclick=fun()>Submit</button><br>
+    </form>
+</div>
+    </body>
+</html>
